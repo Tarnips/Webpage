@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0,206,209));
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+div.left, div.right {
+    color: aqua;
+    border-style: solid;
+    border-width: 5px 2px 5px 2px;
+    border-radius: 15px 50px;
+    padding: 20px;
+}
+
+div.left {
+    text-align: left;
+    padding: 10px;
+    letter-spacing: 2px;
+
+}
+
+div.right {
+    text-align: right;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+a:link, a:visited {
+    color: red;
+    text-decoration: underline;
+}
+
+a:hover, a:active { 
+    color: blueviolet;
+    text-decoration: underline;
+    text-emphasis: bold;
+    text-size-adjust: +80px;
+}
+
+img {
+    float: right;
+}
+
+ul {
+    padding-left: 80px;
+}
+
+#code {
+    transform: rotate(90deg);
+    margin-bottom: -40px;
+    margin-left: -130px;
+}
+
+.btn {
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    border: solid aqua;
+    border-radius: 15px 50px;
+    font-size: 16px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+footer {
+    text-align: center;
+}
